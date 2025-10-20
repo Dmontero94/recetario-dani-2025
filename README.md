@@ -21,7 +21,7 @@ El objetivo es compartir recetas caseras fáciles de preparar, usando el sistema
 | 📱 **Diseño Responsivo** | Adaptable a móviles, tabletas y pantallas grandes. |
 | 🧁 **Componentes Bootstrap** | Uso de Cards, Botones y Modales para mostrar recetas interactivas. |
 | 🎨 **Estilo Personalizado** | Colores suaves, tipografía moderna y secciones alineadas correctamente. |
-| 💬 **Pie de Página** | Con enlaces a redes sociales e íconos representativos. |
+| 💬 **Pie de Página** | Redes sociales con íconos representativos. |
 
 ---
 ## 🖥️ Secciones de la Página
