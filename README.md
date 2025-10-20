@@ -41,7 +41,7 @@ El objetivo es compartir recetas caseras fáciles de preparar, usando el sistema
 | Lenguaje | Framework / Librería | Herramientas          |
 | -------- | -------------------- | --------------------- |
 | 🧠 HTML5 | 💎 Bootstrap 5       | 🧩 GitHub             |
-| 🎨 CSS3  | 🧰 Font Awesome      | 💻 Visual Studio Code |
+| 🎨 CSS  | 🧰 Font Awesome      | 💻 Visual Studio Code |
 
 💬 Autoría
 
