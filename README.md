@@ -24,14 +24,27 @@ El objetivo es compartir recetas caseras fáciles de preparar, usando el sistema
 | 💬 **Pie de Página** | Con enlaces a redes sociales e íconos representativos. |
 
 ---
+## 🖥️ Secciones de la Página
 
-## 🧩 Estructura del Proyecto
+| Sección                | Contenido                                                                  |
+| ---------------------- | -------------------------------------------------------------------------- |
+| 🍓 **Inicio / Navbar** | Menú superior con enlaces a las secciones del sitio.                       |
+| 🍰 **Bienvenida**      | Imagen destacada y mensaje motivacional centrado.                          |
+| 🥗 **Recetas**         | Cards con fotos, descripciones y botones de "Ver más".                     |
+| 🧺 **Tips de Cocina**  | Consejos prácticos y trucos caseros.                                       |
+| ☕ **Contacto**         | Formulario simple para que los visitantes dejen comentarios o sugerencias. |
+| 🩵 **Pie de página**   | Créditos, año y enlaces a redes sociales.                                  |
 
-```bash
-RecetarioDani/
-│
-├── index.html          # Página principal
-├── /css/
-│   └── style.css       # Estilos personalizados
-├── /img/               # Imágenes de las recetas
-└── README.md           # Descripción del proyecto
+
+## 🧁 Tecnologías Utilizadas
+
+| Lenguaje | Framework / Librería | Herramientas          |
+| -------- | -------------------- | --------------------- |
+| 🧠 HTML5 | 💎 Bootstrap 5       | 🧩 GitHub             |
+| 🎨 CSS3  | 🧰 Font Awesome      | 💻 Visual Studio Code |
+
+💬 Autoría
+
+Creado con cariño por Daniela Montero
+
+“Cocinar es una forma de amar sin palabras.” 🥰
