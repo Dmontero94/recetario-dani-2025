@@ -1,0 +1,103 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    background-color: #f8b195;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffe3e3 !important;
+}
+
+.site-header {
+    background-color: #fff6f2;
+    color: #6c4a4a;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.site-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.site-header p {
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* ===== Sección de recetas ===== */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* ===== Botones personalizados ===== */
+.btn-primary {
+    background-color: #f67280;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #c06c84;
+}
+
+/* ===== Formulario de contacto ===== */
+#contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #f8b195;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #f8b195;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffe3e3;
+}

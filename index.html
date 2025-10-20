@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario de Dani 🍲</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2e0e9c6a6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Recetario de Dani 🍴</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#recetas">Recetas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="site-header py-3">
+        <div class="container text-center">
+            <h1 class="mb-0">Bienvenidos a mi rincón de recetas 💛</h1>
+            <p class="mb-0">Aquí comparto mis platos favoritos, cocinados con amor.</p>
+        </div>
+    </header>
+
+    <!-- ===== Sección de recetas ===== -->
+    <section id="recetas" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Mis Recetas Favoritas</h2>
+            <div class="row g-4">
+
+                <!-- Sopa Azteca -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/sopa_azteca.jpg" class="card-img-top" alt="Sopa Azteca">
+                        <div class="card-body">
+                            <h5 class="card-title">Sopa de Tomate (Sopa Azteca)</h5>
+                            <p class="card-text">Una sopa tradicional mexicana con un toque de chile, tortilla y
+                                aguacate. Calientita y llena de sabor.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#receta1Modal">Ver
+                                receta</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lasaña de Pollo -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/lasana_pollo.jpg" class="card-img-top" alt="Lasaña de Pollo en Salsa Blanca">
+                        <div class="card-body">
+                            <h5 class="card-title">Lasaña de Pollo en Salsa Blanca</h5>
+                            <p class="card-text">Una lasaña cremosa con pollo desmenuzado, mucho queso y salsa blanca,
+                                perfecta para compartir en familia.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#receta2Modal">Ver
+                                receta</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arroz con leche -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/arroz_leche.jpg" class="card-img-top" alt="Arroz con Leche">
+                        <div class="card-body">
+                            <h5 class="card-title">Arroz con Leche</h5>
+                            <p class="card-text">Un postre clásico que nunca pasa de moda: cremoso, dulce y con aroma a
+                                canela.</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#receta3Modal">Ver
+                                receta</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Sección de tips ===== -->
+
+    <section id="tips" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Tips y Secretos de Cocina 🧑‍🍳</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ajo sin amargor</h5>
+                            <p class="card-text">Retira el germen: Al usar ajo, córtalo por la mitad y retira la pequeña
+                                parte verde (el germen) del centro. Esto evita que el ajo amargue y sea más fácil de
+                                digerir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">¡Salado como el mar!</h5>
+                            <p class="card-text">Sazona la pasta: Para que la pasta quede deliciosa, el agua
+                                debe estar "salada como el mar". Añade una buena cantidad de sal gruesa al
+                                agua hirviendo **antes** de echar la pasta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Hierbas frescas de nuevo</h5>
+                            <p class="card-text">Baño de hielo: Si tus hierbas frescas (perejil,
+                                cilantro) se ven marchitas, sumérgelas en un bol con agua muy
+                                fría y un poco de hielo durante 10 a 15 minutos. ¡Recuperarán su
+                                firmeza!</p>
+                        </div>
+                    </div>
+                </div>
+                 
+    </section>
+
+    <!-- ===== Modales de recetas ===== -->
+    <!-- Sopa Azteca Modal -->
+    <div class="modal fade" id="receta1Modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sopa de Tomate (Sopa Azteca)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Ingredientes:</strong> tomate, ajo, cebolla, chile (opcional),
+                        tortillas, aguacate,
+                        pollo, queso.</p>
+                    <p><strong>Preparación:</strong> Asa los tomates y licúalos con ajo y
+                        cebolla. Cocina la mezcla,
+                        añade las tortillas fritas y sirve con aguacate, queso y pollo
+                        desmenuzado.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lasaña Modal -->
+    <div class="modal fade" id="receta2Modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Lasaña de Pollo en Salsa Blanca</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Ingredientes:</strong> pollo desmenuzado, pasta para lasaña,
+                        leche, mantequilla, crema
+                        dulce, queso mozzarella.</p>
+                    <p><strong>Preparación:</strong> Prepara una salsa blanca con mantequilla y
+                        agrega leche y crema
+                        dulce. Mezcla con pollo y arma capas con la pasta. Hornea hasta dorar el
+                        queso.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Arroz con leche Modal -->
+    <div class="modal fade" id="receta3Modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Arroz con Leche</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Ingredientes:</strong> arroz, leche, azúcar, canela, clavo de
+                        olor, vainilla.</p>
+                    <p><strong>Preparación:</strong> Cocina el arroz con leche y canela hasta
+                        que espese. Agrega azúcar
+                        y vainilla, y sirve espolvoreado con canela.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== Contacto ===== -->
+    <section id="contacto" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Contáctame</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Tu nombre" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Tu correo" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Tu mensaje" required></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <p>© 2025 Recetario de Dani | Desarrollado con 💛 y Bootstrap</p>
+
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
