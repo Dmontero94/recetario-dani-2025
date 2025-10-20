@@ -33,7 +33,7 @@ El objetivo es compartir recetas caseras fáciles de preparar, usando el sistema
 | 🥗 **Recetas**         | Cards con fotos, descripciones y botones de "Ver más".                     |
 | 🧺 **Tips de Cocina**  | Consejos prácticos y trucos caseros.                                       |
 | ☕ **Contacto**         | Formulario simple para que los visitantes dejen comentarios o sugerencias. |
-| 🩵 **Pie de página**   | Créditos, año y iconos de redes sociales.                                  |
+| 🩵 **Pie de página**   | Créditos, iconos de redes sociales                                |
 
 
 ## 🧁 Tecnologías Utilizadas
